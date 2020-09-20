@@ -4,7 +4,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
     line-height: 2em;
-    padding-left: 10px;
+    
 }
 
 ul:first-of-type {
@@ -61,13 +61,14 @@ p img {
 	font-size: 1.3em;
 	padding-top: 10px;
 }
+/* Enterprise title appears lower that the rest of logos */
 .pricing div:nth-child(4) {
 	padding-top: 35px;
 }
 div:nth-child(1) h3 {border-top:10px solid #CC1C0D;}
 div:nth-child(2) h3 {border-top:10px solid #37A4A4;}
 div:nth-child(3) h3 {border-top:10px solid #685288;}
-div:nth-child(4) h3 {border-top:10px solid #000000; /*margin-top: 35px;*/}
+div:nth-child(4) h3 {border-top:10px solid #000000;}
 
 #vprospect, #vretain, #vconvert {
     font-weight: bold; 
